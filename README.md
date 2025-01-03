@@ -2,7 +2,7 @@ Discord bot created for tracking NFT assets, sales, collections, and more. Inclu
 
 
 
-###OLD README
+### OLD README
 # Setup
 
 ### To setup this on prod, theres a few steps.
