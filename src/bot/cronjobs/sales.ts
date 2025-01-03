@@ -113,7 +113,7 @@ export default class SalesJob {
                           .setImage(event.asset.image_url || "")
                           .addField("From", `[${(event.seller.user?.username || event.seller.address.slice(0, 8)) || "Unknown"}](https://etherscan.io/address/${event.seller.address || "Unknown"})`, true)
                           .addField("To", `[${(event.winner_account.user?.username || event.winner_account.address.slice(0, 8)) || "Unknown"}](https://etherscan.io/address/${event.winner_account.address || "Unknown"})`, true)
-                          .setFooter(`NFT Utils by @gegthedev`)           
+                          .setFooter(`NFT Utils by @geg`)           
                       const guild = await this.client.guilds.fetch(this.currentGuild).catch(() => {});
                       if(!guild) {
                         this.client.slugs.delete(arr[this.currentNumber]);

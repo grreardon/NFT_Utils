@@ -34,7 +34,7 @@ export default class Asset extends BaseCommand {
         .setURL(asset.permalink || "N/A")
         .setDescription(`Owner: ${(asset.owner.user?.username || asset.owner.address.slice(0,8) || "N/A")}`)
         .setImage(asset.image_url)
-        .setFooter("NFT Utils by @gegthedev")
+        .setFooter("NFT Utils by geg")
         //@ts-ignore
         .setColor(guildData?.hex ?? "WHITE")
         for(let i = 0; i < asset.traits.length; i++) {
