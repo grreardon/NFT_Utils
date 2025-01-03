@@ -32,7 +32,7 @@ export default class Stats extends BaseCommand {
             const embed = new MessageEmbed()
             .setTitle("Stats")
             .setDescription("Specific stats about this collection.")
-            .setFooter("NFT Utils by @gegthedev")
+            .setFooter("NFT Utils by @geg")
             //@ts-ignore
             .setColor(data?.hex ?? "WHITE")
             const keys = Object.keys(jsonData.stats)
